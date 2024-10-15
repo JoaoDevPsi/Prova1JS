@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova 1</title>
+</head>
+<body>
+    <h2>Media ponderada</h2>
+    <p>A media ponderada a seguir é:</p>
+    <p id="valor"></p>
+    <p>ps: também visualizavel no console</p>
+    <footer>&copy; João Pedro Carvalho Araújo 2024</footer>
+    <script>
+        let n1 = 3
+        let n2 = 4
+        let n3 = 2
+
+        let p1 = 3
+        let p2 = 4
+        let p3 = 3
+
+        let media_ponderada = (p1*p2*p3*n1*n2*n3)/(p1+p2+p3);
+       let resultado = document.getElementById('valor');
+       resultado.innerHTML = media_ponderada;
+        console.log(media_ponderada)
+    </script>
+    
+</body>
+</html>
